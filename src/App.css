@@ -1,38 +1,185 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  #nav {
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    float:right;
+    background-color: White;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1;
   }
-  to {
-    transform: rotate(360deg);
+  #nav a {
+    text-decoration: none;
+    color: Black;
   }
-}
+  #nav li {
+    float: left;
+  }
+  
+  #nav li a {
+    display: block;
+    color:Black;
+    text-align: center;
+    padding: 9px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  #nav li a:hover:not(.active) {
+    background-color:#2C3335;
+    color : white;
+  }
+  
+  #nav .active {
+    background-color:#67E6DC;
+  }
+  #heading1 {
+    padding : 0px ;
+    margin : 200px 500px;
+    align-items: center;
+
+  }
+  #heading2 {
+    padding : 0px ;
+    margin: 1px 625px;
+    align-items: center;
+    border: 1px sol id black;
+  }
+  a {
+    text-decoration: underline;
+    color:Black;
+  }
+  .Box {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    width: 600px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px 5px #99AAAB;
+    margin-left: -3px;
+    /* display: flex;
+    justify-content: center; */
+  }
+  .InnBox {
+    display: flex;
+    justify-content: center;
+  }
+  .ContBox {
+    position: absolute;
+    left: 33%;
+    top: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px 5px #99AAAB;
+    margin-left: -3px;
+    /* display: flex;
+    justify-content: center; */
+  }
+  .ContInBox {
+    display: flex;
+    justify-content: center;
+  }
+  #head1C {
+    position: absolute;
+    top: 50px;
+  }
+  #head2C {
+    position: absolute;
+    top: 110px;
+    left: 5%;
+  }
+  #head3C {
+    position: absolute;
+    top: 150px;
+    left: 5%;
+  }
+  #head4C {
+    position: absolute;
+    top: 190px;
+    left: 5%;
+  }
+  #head5C {
+    position: absolute;
+    top: 230px;
+    left: 5%;
+  }
+  #head6C {
+    position: absolute;
+    top: 270px;
+    left: 5%;
+  }
+  #head7C {
+    position: absolute;
+    top: 310px;
+    left: 5%;
+  }
+  #head1 {
+    position: absolute;
+    top: 30px;
+  }
+  #head2 {
+    position: absolute;
+    top: 80px;
+    color: gray;
+  }
+  #head3 {
+    position: absolute;
+    top: 140px;
+    left: 5%;
+  }
+  #head4 {
+    position: absolute;
+    top: 170px;
+    left: 5%;
+  }
+  #head5 {
+    position: absolute;
+    top: 200px;
+    left: 5%;
+  }
+  #head6 {
+    position: absolute;
+    top: 230px;
+    left: 5%;
+  }
+  #head7 {
+    position: absolute;
+    top: 260px;
+    left: 5%;
+  }
+  #head8 {
+    position: absolute;
+    top: 350px;
+    left: 5%;
+  }
+  #imgBox {
+    width: 400px;
+    height: 400px;
+    margin : 150px 0px 0px 100px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px 5px #99AAAB;
+  }
+  #VertiLine {
+    border-left: 3px solid black;
+    height: 500px;
+    margin : 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: -5px;
+  }
