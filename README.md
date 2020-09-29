@@ -7,12 +7,12 @@
 
 `git clone "https://github.com/keyurbhogayata/reactbasedprofile.git"`
 
-### 3. after cloning the repoitory into local folder open cmd(where the local folder has been cloned) and run the following commands,
+### 3. after cloning the repoitory into local folder open cmd(where the local folder has been cloned) and run the following commands in given order,
 
-`npm install`
-`npm i create-react-app`
-`npm i react-router-dom`
-`npm start`
+1. `npm install`
+2. `npm i create-react-app`
+3. `npm i react-router-dom`
+4. `npm start`
 
 ### 4. go to web browser and paste this local address "http://localhost:3000/" (without qoutes). 
 ### Now you are good to GO !! 
