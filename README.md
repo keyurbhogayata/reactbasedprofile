@@ -1,7 +1,7 @@
 # react based profile
 # Method to run this repository
 
-### 1. make sure that user has intalled Node.js link - > https://nodejs.org/en/
+### 1. make sure that user has intalled Node.js if not (link - > https://nodejs.org/en/ )
 
 ### 2. after installing Node.js, clone this repository by pasting the following command into cmd
 
